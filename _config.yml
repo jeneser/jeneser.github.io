@@ -8,10 +8,10 @@
 # Site settings
 title-bold: Forty
 title-normal: by HTML5 UP
-email: youremailaddress@gmail.com
+email: 1668358930@qq.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://jeneser.gitlab.io" # the base hostname & protocol for your site
 author: 
 street_address: 1234 Somewhere Road
 city: Nashville
