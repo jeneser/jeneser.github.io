@@ -1,22 +1,30 @@
+<!-- Wrapper -->
+<div id="wrapper">
 
-<!-- Intro Start -->
-
-<header class="intro">
-  <div class="intro-body">
-    <div class="container">
-      <div class="row">
-          <div class="col-md-10 col-md-offset-1">
-            <h1 class="brand-heading">&nbsp;</h1>
-            <h1 class="brand-heading">&nbsp;</h1>
-            <span class="intro-text">{{ content }}</span>
-            <h5>&nbsp;</h5>
-            <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
-              <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
-            </a>
-          </div>
-        </div>
-    </div>
-  </div>
+<!-- Header -->
+<header id="header"{% if page.layout == "landing" %} class="alt style2"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ site.url }}{{ site.baseurl }}" class="logo"><strong>{{ site.title-bold }}</strong> <span>{{ site.title-normal }}</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
 </header>
 
-<!-- Intro End -->
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        {% for page in site.pages %}
+		    {% if page.layout == "home" %}
+		        <li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
+	    	{% endif %}
+		{% endfor %}
+		{% for page in site.pages %}
+		    {% if page.layout != "home" %}
+		        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+		    {% endif %}
+		{% endfor %}
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>
+</nav>
