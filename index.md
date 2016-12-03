@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: 主页
 landing-title: Hi, my name is Jeneser
 description: 
 image: 
