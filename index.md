@@ -33,11 +33,11 @@ nav-menu:
 <section id="two">
 	<div class="inner">
 		<header class="major">
-			<h2>Massa libero</h2>
+			<h2>About Me</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+		<p>我是一位前端开发者.我喜爱的语言是javascript.我喜欢开源,所以我把我的所有都放在了github上,我还参与了其他人的开源项目，并做出了一点点贡献，我想这是不错的体验.</p>
 		<ul class="actions">
-			<li><a href="landing.html" class="button next">Get Started</a></li>
+			<li><a href="landing.html" class="button next">Learn More</a></li>
 		</ul>
 	</div>
 </section>
