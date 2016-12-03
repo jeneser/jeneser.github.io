@@ -7,18 +7,18 @@
 
 # Site settings
 title-bold: Jeneser
-title-normal: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+title-normal: by Jekyll
+email: 1668358930@qq.com
+description: 欢迎来到我的博客.我是一位不断学习不断成长的前端开发者.每天鼓励自己进步一点点
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeneser.github.io" # the base hostname & protocol for your site
-author: 
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+author: jeneser
+street_address: 河南理工大学
+city: 焦作
+state: CN
+zip_code: 454000
+country: 河南省　焦作市
+phone: 18839130035
 
 # Plugins
 gems:
