@@ -1,11 +1,12 @@
 ---
 layout: post
 title: 关于我
-description: Lorem ipsum dolor est
+description: 我的个人简介
 image: assets/images/pic11.jpg
 nav-menu: yes
 ---
 
+我是一个会写一些node的前端探路者。
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. 
 Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. 
 Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. 
