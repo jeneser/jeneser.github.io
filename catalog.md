@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: 文章分类
+title: 全部文章
 description: Lorem ipsum dolor sit amet nullam consequat<br />sed veroeros. tempus adipiscing nulla.
 image: assets/images/pic07.jpg
 nav-menu: yes
