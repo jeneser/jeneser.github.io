@@ -2,10 +2,10 @@
 layout: home
 title: 主页
 landing-title: Hi, my name is Jeneser
-description: 
-image: 
-author: 
-nav-menu: 
+description:
+image:
+author:
+nav-menu:
 ---
 
 <!-- Banner -->
@@ -47,4 +47,3 @@ nav-menu:
 </section>
 
 </div>
-

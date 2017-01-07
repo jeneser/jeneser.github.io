@@ -9,7 +9,7 @@
 title-bold: Jeneser
 title-normal: by Jekyll
 email: 1668358930@qq.com
-description: 我是一位不断学习不断成长的前端开发者.每天鼓励自己进步一点点
+description: 万物皆有裂痕,那是光照进来的地方．
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jeneser.github.io" # the base hostname & protocol for your site
 author: jeneser
@@ -28,19 +28,19 @@ gems:
   - jemoji
 
 # Homepage tiles
-tiles-source: posts # accepts "posts" or "pages" 
+tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 6
 
 # Social settings
-500px_url: 
-facebook_url: 
-github_url: 
+500px_url:
+facebook_url:
+github_url:
 gitlab_url: https://gitlab.com/u/andrewbanchich
 googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
 instagram_url: https://instagram.com
 linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-pinterest_url: 
-slack_url: 
+pinterest_url:
+slack_url:
 twitter_url: https://twitter.com/andrewbanchich
 
 # Build settings
@@ -51,8 +51,8 @@ twitter:
   username: andrewbanchich
 # Add one or more of the following
 facebook:
-  app_id: 
-  publisher: 
-  admins: 
+  app_id:
+  publisher:
+  admins:
 logo:
-google_site_verification: 
+google_site_verification:
