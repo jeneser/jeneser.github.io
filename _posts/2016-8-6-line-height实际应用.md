@@ -5,8 +5,6 @@ description: line-height实际应用
 image: assets/images/pic04.jpg
 ---
 
-# line-height实际应用
-
 ### 图片水平垂直居中
 
 > *兼容性 IE8+*

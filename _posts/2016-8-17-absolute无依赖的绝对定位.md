@@ -5,8 +5,6 @@ description: absolute无依赖的绝对定位
 image: assets/images/pic06.jpg
 ---
 
-# absolute无依赖的绝对定位
-
 定位是css最重要的姿势点，了解这些定位之间的关系以及各自的优缺点很重要．
 这里是看了张鑫旭老师的视频后整理出来的，瞬间感觉absolute定位竟然如此强大．get it!
 
