@@ -41,7 +41,7 @@ nav-menu:
 		<p>我喜欢去图书馆，读一些书，不论是技术书，还是文学书，都有涉略．算是一个文艺点的青年程序员吧！
 		我喜欢读《思考-快与慢》《黑客与画家》</p>
 		<ul class="actions">
-			<li><a href="landing.html" class="button next">Learn More</a></li>
+			<li><a href="profile.html" class="button next">Learn More</a></li>
 		</ul>
 	</div>
 </section>
