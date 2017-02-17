@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 学习CSP(Content-Security-Policy)
-description: IE条件注释
+description: 学习CSP(Content-Security-Policy)
 image: assets/images/pic02.jpg
 ---
 

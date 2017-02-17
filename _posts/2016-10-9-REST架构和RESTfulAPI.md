@@ -1,7 +1,7 @@
 ---
 layout: post
 title: REST架构和RESTfulAPI
-description: IE条件注释
+description: REST架构和RESTfulAPI
 image: assets/images/pic08.jpg
 ---
 
