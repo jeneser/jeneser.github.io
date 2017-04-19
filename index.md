@@ -35,11 +35,10 @@ nav-menu:
 		<header class="major">
 			<h2>About Me</h2>
 		</header>
-		<p>我是一个会写一些node的前端探路者。</p>
+		<p>前端，轮子爱好者，社区灌水党</p>
 
-		<p>喜爱javascript.深深地热爱着开源与github．参与了一些其他人的开源项目，并做出了一点点贡献，我认为这将是不错的体验。</p>
-		<p>我喜欢去图书馆，读一些书，不论是技术书，还是文学书，都有涉略．算是一个文艺点的青年程序员吧！
-		我喜欢读《思考-快与慢》《黑客与画家》</p>
+		<p>喜爱javaScript，深深地热爱着开源与github。参与了一些团队的开源项目，并做出了一点点贡献，我认为这将是不错的体验。</p>
+		<p>喜欢读书，去图书馆，技术书，文学书，都读。大概是一个文艺点的青年程序员吧！</p>
 		<ul class="actions">
 			<li><a href="profile.html" class="button next">Learn More</a></li>
 		</ul>
