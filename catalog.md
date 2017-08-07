@@ -35,7 +35,7 @@ nav-menu: yes
 					<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 				</h2>
 			</header>
-			<p>{{ post.description }}...</p>
+			<p>{{ post.description }}....</p>
 		</div>
 	{% endif %}
 	{% endfor %}
