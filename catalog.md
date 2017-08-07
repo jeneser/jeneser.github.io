@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: POSTS
-description: It mainly shares front-end technology, but not only the front-end.</br>All I know is what I shared.
+description: It mainly shares front-end technology, but not only the front-end.<br />All I know is what I shared.
 image: assets/images/pic07.jpg
 nav-menu: yes
 ---
