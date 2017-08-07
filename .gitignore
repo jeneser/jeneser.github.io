@@ -1,19 +1,18 @@
-# -*- mode: gitignore; -*-
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-*.elc
-auto-save-list
-tramp
-.\#*
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
 
-_site/
-.sass-cache/
-*.swp
-pkg/
-test/
-_deploy/*
-Rakefile
-.jekyll-metadata
-/.idea/
+Thumbs.db
+.DS_Store
+
+.rbenv-version
+.rvmrc
+/node_modules
+/yarn-error.log
+yarn.lock
+
+# Ignore Yard Doc
+/doc
+.yardoc/

@@ -1,17 +1,30 @@
-<!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: blog
+---
+<article class="unit-article layout-page">
+    <div class="unit-inner unit-article-inner">
+        <div class="content">
+            <header>
+                <div class="unit-head">
+                    <div class="unit-inner unit-head-inner">
+                        <h1 class="entry-title">{{ page.header }}</h1>
+                    </div>
+                </div>
+            </header>
 
-{% include head.html %}
+            <div class="bd article-content">
+                <div class="entry-content">
+                    {{ content }}
+                </div>
+            </div>
 
-<body>
-
-    {% include header.html %} {{ content }} {% include footer.html %}
-
-</body>
-
-</html>
+            <footer class="unit-foot">
+                <div class="unit-inner unit-foot-inner">
+                    <p>
+                        <a class="internal gotop" href="#page">{{ site.data.i18n[site.lang].back_to_top }}</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</article>
