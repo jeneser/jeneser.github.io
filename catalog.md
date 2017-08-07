@@ -1,7 +1,7 @@
 ---
 layout: landing
-title: 全部文章
-description: Lorem ipsum dolor sit amet nullam consequat<br />sed veroeros. tempus adipiscing nulla.
+title: POSTS
+description: It mainly shares front-end technology, but not only the front-end.</br>All I know is what I shared.
 image: assets/images/pic07.jpg
 nav-menu: yes
 ---
@@ -14,7 +14,7 @@ nav-menu: yes
 			<img src="{{ site.baseurl }}/{{ page.image }}" alt="" />
 		</span>
 		<header class="major">
-			<h1>Landing</h1>
+			<h1>POSTS</h1>
 		</header>
 		<div class="content">
 			<p>{{ page.description }}</p>
