@@ -27,7 +27,7 @@ nav-menu: yes
 
 <!-- One -->
 <section id="one">
-	{% for post in site.posts limit:site.tiles-count %}
+	{% for post in site.posts limit:20 %}
 	{% if site.tiles-source == 'posts' %}
 		<div class="inner">
 			<header class="major">
@@ -35,7 +35,7 @@ nav-menu: yes
 					<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 				</h2>
 			</header>
-			<p>{{ post.description }}....</p>
+			<p>{{ post.description }}......</p>
 		</div>
 	{% endif %}
 	{% endfor %}
