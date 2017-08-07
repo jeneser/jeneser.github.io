@@ -31,9 +31,11 @@ nav-menu: yes
 	{% if site.tiles-source == 'posts' %}
 		<div class="inner">
 			<header class="major">
-				<h2>{{ post.title }}</h2>
+				<h2>
+					<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+				</h2>
 			</header>
-			<p>{{ post.description }}</p>
+			<p>{{ post.description }}...</p>
 		</div>
 	{% endif %}
 	{% endfor %}
