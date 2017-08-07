@@ -23,19 +23,19 @@ sass:
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
-title: Simple Texture
-description: "A gem-based responsive simple texture styled Jekyll theme."
-keywords: 'jekyll,theme,gem-based,blog'
+title: jeneser
+description: "A good boy who loves JavaScript and github"
+keywords: 'jeneser,jekyll,theme,gem-based,blog'
 author:
-  name:
+  name: 'jeneser'
   job_title:
-  location:
-  email:
+  location: 'China'
+  email: jeneserwang@gmail.com
   social_links:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/yizeng/jekyll-theme-simple-texture
+      url: https://github.com/jeneser
     - name: instagram
       url:
     - name: linkedin
@@ -47,13 +47,13 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Simple Texutre</h1>
-  section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
+  section1: <h1>jeneser</h1>
+  section2: <h2>A good boy who loves JavaScript and github</h2>
+  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/jeneser" title="View on GitHub"></a></div>
 blog:
   cc_license: # A link to CC License of your choice, e.g. http://creativecommons.org/licenses/by-sa/4.0/.
   cc_license_image: # An image of your CC License, e.g. /assets/images/theme/cc-by-sa.png
-  footer_content: A gem-based responsive simple texture styled Jekyll theme.
+  footer_content: A good boy who loves JavaScript and github.
 
 disqus:
   shortname:
