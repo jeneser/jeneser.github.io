@@ -61,9 +61,9 @@ Next step:
 
 (end)
 
-*本文首发于简书
+*本文首发于[简书](http://www.jianshu.com/u/00500711278f)*
 
-*原创文章转载请注明
+*原创文章转载请注明*
 
 作者：jeneser
 
