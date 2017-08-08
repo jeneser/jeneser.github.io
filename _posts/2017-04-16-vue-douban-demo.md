@@ -2,8 +2,8 @@
 layout: post
 title: "[豆瓣]精致完整的Vue2+项目"
 description: "分享一个比较精致完整的Vue2+项目供大家交流学习"
-categories: [vue, demo]
-tags: [vue, demo]
+categories: [vue, original, demo]
+tags: [vue, original, demo]
 redirect_from:
   - /2017/04/16/
 ---

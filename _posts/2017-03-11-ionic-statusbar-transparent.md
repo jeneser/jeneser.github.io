@@ -2,8 +2,8 @@
 layout: post
 title: "Ionic实现透明状态栏"
 description: "文章发出来一段时间后，得到了很多小伙伴的支持，也积累了一些问题。于是就抽时间写了个DEMO，解决了Ionic实现透明状态栏，呐，你想要的都在这里了"
-categories: [ionic, demo]
-tags: [ionic, angular, android, demo]
+categories: [ionic, original, demo]
+tags: [ionic, angular, android, original, demo]
 redirect_from:
   - /2017/03/11/
 ---
