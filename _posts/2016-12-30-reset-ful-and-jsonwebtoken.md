@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "JWT-无状态的安全鉴权机制"
+title: "RESTful API与无状态的鉴权机制JWT"
 description: "前后端分离场景下，鉴权机制的选择，jwt即JSON Web Tokens"
 categories: [jwt, nodejs]
 tags: [jwt, nodejs, auth]
