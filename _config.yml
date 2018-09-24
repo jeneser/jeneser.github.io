@@ -1,68 +1,103 @@
-# Site Settings
-encoding: UTF-8
-exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
-lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
-permalink: /blog/:year/:month/:day/:title/
+# Site settings
+title: jeneser Blog
+SEOTitle: jeneser的博客 | jeneser Blog
+header-img: img/home-bg-art.jpg
+email: jeneserwang@gmail.com
+description: "关于jeneser的过去现在和未来 | jeneser，Front End Developer，Software Engineer | 这里是 @jeneser黄玄 的个人博客，与你一起发现更大的世界。"
+keyword: "jeneser, @jeneser, jeneser的博客, jeneser Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端"
+url: "https://github.com/jeneser"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
-gems:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# Publish posts or collection documents with a future date.
+future: true
 
+# SNS settings
+RSS: false
+# weibo_username:     jeneser
+zhihu_username:     jeneser
+github_username:    jeneser
+twitter_username:   jeneserwang
+#facebook_username:  huxpro
+#linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  auto_id_prefix: 'heading-'
-  smart_quotes: ["apos", "apos", "quot", "quot"]
-  toc_levels: 1..3
+  input: GFM                            # use Github Flavored Markdown !important
 
-sass:
-  style: compressed
 
-# Site Data
-url: # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: # the subpath of your site, e.g. /blog
-title: jeneser
-description: "A good boy who loves JavaScript and github"
-keywords: 'jeneser,jekyll,theme,gem-based,blog'
-author:
-  name: 'jeneser'
-  job_title:
-  location: 'China'
-  email: jeneserwang@gmail.com
-  social_links:
-    - name: facebook
-      url:
-    - name: github
-      url: https://github.com/jeneser
-    - name: instagram
-      url:
-    - name: linkedin
-      url:
-    - name: stackoverflow
-      url:
-    - name: twitter
-      url: 
-    - name: vk
-      url:
-home:
-  section1: <h1>jeneser</h1>
-  section2: <h2>A good boy who loves JavaScript and github</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/jeneser" title="View on GitHub"></a></div>
-blog:
-  cc_license: # A link to CC License of your choice, e.g. http://creativecommons.org/licenses/by-sa/4.0/.
-  cc_license_image: # An image of your CC License, e.g. /assets/images/theme/cc-by-sa.png
-  footer_content: A good boy who loves JavaScript and github.
 
-disqus:
-  shortname:
-  public_key:
-google_analytics:
-addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/
+# Disqus settings
+disqus_username: jeneser
 
-paths:
-  home: /
-  blog: /blog/
-  categories: /blog/categories/
-  tags: /blog/tags/
+# Netease settings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "梦想解放出它们的双脚 舞蹈不停"
+sidebar-avatar: /img/avatar-jeneser.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: false
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+friends: [
+    {
+        title: "FEX",
+        href: "http://fex.baidu.com/"
+    }
+]
